@@ -1,0 +1,60 @@
+
+main{
+width:400px;
+margin:auto;
+}
+
+section{
+background-color:#89c82e;
+border-radius: 30px;
+border: 5px solid rgba(60,60,59);
+}
+
+form{
+margin-top:40px;
+display:block;
+justify-content:centre;
+margin-left:40px;
+margin-right:40px;
+
+}
+
+div{
+display: flex;
+justify-content: center;
+margin-bottom:10px;
+}
+
+div input{
+width:215px;
+color:#3c3c3b;
+border: 1px solid white;
+height:25px;
+margin:auto;
+
+}
+ 
+div p{
+font-family: "Calibri";
+margin:auto;
+}
+
+
+form div button{
+text-align:centre;
+background-color:rgba(231,0,100);
+
+border-radius:5px;
+height:30px;
+padding:0 15px;
+margin-bottom:10px;
+}
+
+
+input.invalid {
+  border-color: red;
+}
+
+input.valid {
+  border-color: green;
+}

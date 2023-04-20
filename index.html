@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Digital Native</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+	</head>
+	<body>
+        <main> 
+		<section>
+			<form onsubmit="sendEmail(); reset(); return false;">
+				<div>
+					<p>Name:</p>
+					<input type="text" name="name" required placeholder="Enter Your Name"> 
+				</div>
+				<div>
+					<p>Email:</p>
+					<input type="email" name="email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required  placeholder="Enter Your Email"> 
+				</div>
+				<div>
+					<p>Card: </p>
+					<input class = "card" type="text" required placeholder="Enter a Proxy Credit Card Number.">
+				</div>
+				<div>
+					<button type="submit">Submit</button>
+				</div>
+			</form>
+		</section>	
+        </main>
+		<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+	  <script src="javascript.js"></script>
+    </body>
+</html>
